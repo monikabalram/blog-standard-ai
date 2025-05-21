@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../Logo";
 import { useContext, useEffect } from "react";
-import PostsContext from "../../context/postsContext";
+import PostsContext from "../../../context/postsContext";
 
 const AppLayout = ({
   children,

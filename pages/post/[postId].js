@@ -8,7 +8,7 @@ import { faHashtag } from "@fortawesome/free-solid-svg-icons";
 import { getAppProps } from "../../utils/getAppProps";
 import { useContext, useState } from "react";
 import { useRouter } from "next/router";
-import PostsContext from "../context/postsContext";
+import PostsContext from "../../context/postsContext";
 
 export default function Post(props) {
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
